@@ -36,7 +36,7 @@ import {
   UserCircle,
   Clock,
 } from "lucide-react";
-import rbiLogo from "@/assets/rbi-logo.jpeg";
+import DashMeetingLogo from "@/assets/dashmeeting-logo.svg";
 
 const navItems = [
   { key: "dashboard" as const, url: "/", icon: LayoutDashboard },
@@ -69,8 +69,8 @@ export function DashboardLayout() {
       <header className="h-14 flex items-center border-b border-border bg-card px-4 lg:px-6 shrink-0 gap-4">
         {/* Left: Logo */}
         <Link to="/" className="flex items-center gap-2 shrink-0 mr-4">
-          <img src={rbiLogo} alt="RBI Private Lending" className="h-8 w-8 rounded-lg object-contain bg-white p-0.5" />
-          <span className="text-sm font-bold text-foreground hidden sm:inline">RBI Private Lending</span>
+          <img src={DashMeetingLogo} alt="DashMeeting" className="h-8 w-8 rounded-lg object-contain bg-white p-0.5" />
+          <span className="text-sm font-bold text-foreground hidden sm:inline">DashMeeting</span>
         </Link>
 
         {/* Center: Navigation */}
