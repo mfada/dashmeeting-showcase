@@ -1,0 +1,1 @@
+ALTER TABLE public.tasks ADD COLUMN tags text[] NOT NULL DEFAULT '{}';
