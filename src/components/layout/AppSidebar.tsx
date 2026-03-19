@@ -15,7 +15,7 @@ import { useAuth } from "@/hooks/useAuth";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { useUnassignedMeetingsCount } from "@/hooks/useSupabaseData";
 import { Badge } from "@/components/ui/badge";
-import rbiLogo from "@/assets/rbi-logo.jpeg";
+import DashMeetingLogo from "@/assets/dashmeeting-logo.svg";
 
 import {
   Sidebar,
@@ -68,10 +68,10 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <SidebarHeader className="border-b border-sidebar-border px-4 py-4">
         <div className="flex items-center gap-2">
-          <img src={rbiLogo} alt="RBI Private Lending" className="h-8 w-8 rounded-lg object-contain bg-white p-0.5" />
+          <img src={DashMeetingLogo} alt="DashMeeting" className="h-8 w-8" />
           {!collapsed && (
             <div className="flex flex-col">
-              <span className="text-sm font-bold text-sidebar-foreground">RBI Private Lending</span>
+              <span className="text-sm font-bold text-sidebar-foreground">DashMeeting</span>
               <span className="text-[10px] text-sidebar-foreground/50">{t.sidebar.meetingIntelligence}</span>
             </div>
           )}
