@@ -1,0 +1,11 @@
+project_id = "otcmkkxzoxbghgrwjybz"
+
+[functions]
+  [functions.auth-email-hook]
+    verify_jwt = false
+  [functions.project-chat]
+    verify_jwt = false
+  [functions.sync-office365]
+    verify_jwt = false
+  [functions.send-task-notification]
+    verify_jwt = false
