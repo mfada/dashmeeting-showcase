@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "@/hooks/use-toast";
-import rbiLogo from "@/assets/rbi-logo.jpeg";
+import DashMeetingLogo from "@/assets/dashmeeting-logo.svg";
 
 export default function ResetPassword() {
   const [password, setPassword] = useState("");
@@ -51,7 +51,7 @@ export default function ResetPassword() {
       <Card className="w-full max-w-sm">
         <CardHeader className="text-center">
           <div className="flex justify-center mb-2">
-            <img src={rbiLogo} alt="RBI Private Lending" className="h-16 w-auto" />
+            <img src={DashMeetingLogo} alt="DashMeeting" className="h-16 w-auto" />
           </div>
           <CardTitle className="text-xl">Set new password</CardTitle>
           <CardDescription>Enter your new password below.</CardDescription>
