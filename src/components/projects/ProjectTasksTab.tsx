@@ -164,7 +164,7 @@ export function ProjectTasksTab({ projectId, canEdit = false }: Props) {
       tr:hover{background:#f9f9f9}
       @media print{button{display:none}}</style></head>
       <body>
-        <h2>RBI Private Lending — Task Report</h2>
+        <h2>DashMeeting — Task Report</h2>
         <p>Exported ${new Date().toLocaleDateString()} · ${allTasks.length} tasks</p>
         <table><thead><tr>
           <th>Description</th><th>Status</th><th>Priority</th><th>Assignee</th><th>Due Date</th><th>Source</th>
